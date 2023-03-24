@@ -1,0 +1,48 @@
+# Created by https://www.toptal.com/developers/gitignore/api/elixir,phoenix
+# Edit at https://www.toptal.com/developers/gitignore?templates=elixir,phoenix
+
+### Elixir ###
+app/_build
+app/cover
+app/deps
+app/doc
+app/.fetch
+erl_crash.dump
+*.ez
+*.beam
+app/config/*.secret.exs
+.elixir_ls/
+#
+# Ignore package tarball (built via "mix hex.build").
+hello-*.tar
+
+### Elixir Patch ###
+
+### Phoenix ###
+# gitignore template for Phoenix projects
+# website: http://www.phoenixframework.org/
+#
+# Recommended template: Elixir.gitignore
+
+# Temporary files
+/tmp
+
+# Static artifacts
+# In case you use Node.js/npm, you want to ignore these.
+npm-debug.log
+app/node_modules
+app/assets/node_modules
+
+# Since we are building assets from web/static,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+app/priv/static/
+
+# Installer-related files
+app/installer/_build
+app/installer/tmp
+app/installer/doc
+app/installer/deps
+
+# End of https://www.toptal.com/developers/gitignore/api/elixir,phoenix
+
